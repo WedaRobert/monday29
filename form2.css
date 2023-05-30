@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.sign-up{
+    width: 300px;
+    box-shadow: 0 10px 7px 0 rgba(0,0,0);
+    background-color: #fff;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+   
+    
+}
+body{
+    background-color: rgb(62, 62, 244); 
+    padding: 50px; 
+   
+}
+.sign-up h1{
+    margin-bottom: 30px;
+}
+.inputbox{
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid rgb(105, 99, 99);
+    outline: none;                       
+
+}
+ button{
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    background-color: rgb(41, 0, 128);
+    cursor: pointer;
+}
+.btn1{
+    background-color: rgb(129, 103, 244);
+}
+hr{
+    margin-top: 20px;
+   
+}
+.or{
+    background: #fff;
+    width: 30px;
+    margin: -19px auto 10px;
+}
+span{
+   
+}
+.select{
+  
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid rgb(105, 99, 99);
+    outline: none;
+
+}

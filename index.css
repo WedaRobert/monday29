@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    padding: 20px 3%;
+    background-color: rgb(30, 30, 105);
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav .rows{
+    display: flex;
+    align-items: center;
+  
+  
+}
+
+nav .flag{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+nav h1{
+    color: #fff;
+    padding: 20px;
+}
+.rows button{
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s;
+
+}
+.rows button:hover{
+    background-color: rgb(116, 116, 244);
+}
+.rows{
+    gap: 50px;
+   
+}
+.rows .sig{
+    color: blue;
+    background-color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 2px;
+   
+}
+.container{
+    padding: 10px 5%;
+    background:linear-gradient(rgba(0, 0, 0,0.2),rgba(0, 0, 0,0.2)) , url('./land.jpg');
+    height: 60vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+
+}
+.cont{
+    color: #fff;
+    margin: 50px;
+    padding-top: 100px;
+}
+.cont h1{
+    font-size: 45px;
+}
+.holiday button{
+    background-color: rgb(49, 49, 189);
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    padding: 15px 20px;
+    border-radius: 3px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: 1s;
+}
+.holiday button:hover{
+    background-color: rgb(26, 25, 49);
+
+}
+.columns{
+    display: flex;
+    align-items: center;
+}
+.columns button{
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+.columns{
+    gap: 10px;
+}
+.one{
+    
+}
